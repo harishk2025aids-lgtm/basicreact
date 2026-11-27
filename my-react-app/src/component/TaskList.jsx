@@ -1,3 +1,5 @@
+import TaskCard from './TaskCard'
+
 function TaskList(){
     const tasks = [
         {
@@ -33,3 +35,5 @@ function TaskList(){
         </>
     );
 }
+
+export default TaskList
